@@ -1,7 +1,6 @@
 package de.dhbw.mockitodemo;
 
-import static org.junit.Assert.fail;
-
+import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class CalculatorTest {
