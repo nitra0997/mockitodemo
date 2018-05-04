@@ -22,6 +22,7 @@ public class Calculator {
 	
 	public double divide(int i, int j)
 	{
+		if(j == 0) throw new IllegalArgumentException();
 		return calculatorService.divide(i, j);
 	}
 
